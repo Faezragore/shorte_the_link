@@ -1,6 +1,4 @@
-:bomb:
-
-**project objective:**
+h1**project objective:**
 Shortening a long link to a short one and getting the number of clicks on a short link.
 For the reduction we use website bit.ly
 
@@ -23,8 +21,11 @@ Creating a shortened link:
  
  **Authorization: Bearer Wastaken**.
  
- Example: creating_a_shortened_link function in main.py
+ Example: 
+ creating_a_shortened_link function in main.py
+ 
  At the entrance we submit a token and a link.
+ 
  The output is a short link.
  
  Response example:
@@ -33,6 +34,8 @@ Python3 should be already installed.
 Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
 pip install -r requirements.txt
+
+'To run:' In command line: ''' python main.py 'link' '''
 
 The code is written for educational purposes on online-course for web-developers https://dvmn.org.
 
