@@ -18,7 +18,8 @@ How to get token.
 Creating a shortened link:
  Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
  Request body: long_url (required)- the long link you want to shorten.
- For authorization using OAuth 2, you need to add to the HTTP request header Authorization: Bearer Wastaken.
+ For authorization using OAuth 2, you need to add to the HTTP request header 
+ **Authorization: Bearer Wastaken**.
  
  Example: creating_a_shortened_link function in main.py
  At the entrance we submit a token and a link.
@@ -26,7 +27,8 @@ Creating a shortened link:
  
  Response example:
 
-Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
+Python3 should be already installed. 
+Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
 pip install -r requirements.txt
 
