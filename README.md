@@ -1,7 +1,10 @@
-[project objective]:Shortening a long link to a short one and getting the number of clicks on a short link.
+:bomb:
+**project objective:**
+Shortening a long link to a short one and getting the number of clicks on a short link.
+
 For the reduction we use website bit.ly
-a
-[Installation and setup]:
+
+**Installation and setup:**
 To work with bit.y needs the token.
 The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
 How to get token.
@@ -26,10 +29,12 @@ The code is written for educational purposes on online-course for web-developers
 
 ***********************************************
 
-[Цель проекта]:Сокращение длинной ссылки до короткой и получение количества переходов по короткой ссылке.
+**Цель проекта:**
+Сокращение длинной ссылки до короткой и получение количества переходов по короткой ссылке.
+
 Для сокращение используем сайт bit.ly
 
-[Установка и настройка]
+**Установка и настройка**
 Для работы с bit.y нужен токен.
 Токен выглядит как строка наподобие следующей: 17c09e20ad155405123ac1977542fecf00231da7
 Как получить токен.
