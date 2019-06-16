@@ -18,7 +18,9 @@ How to get token.
 Creating a shortened link:
  Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
  Request body: long_url (required)- the long link you want to shorten.
- For authorization using OAuth 2, you need to add to the HTTP request header 
+ 
+ For authorization using OAuth 2, you need to add to the HTTP request header
+ 
  **Authorization: Bearer Wastaken**.
  
  Example: creating_a_shortened_link function in main.py
@@ -32,7 +34,7 @@ Then use pip (or pip3, if there is a conflict with Python2) to install dependenc
 
 pip install -r requirements.txt
 
-The code is written for educational purposes on online-course for web-developers dvmn.org.
+The code is written for educational purposes on online-course for web-developers https://dvmn.org.
 
 ***********************************************
 
@@ -50,7 +52,9 @@ The code is written for educational purposes on online-course for web-developers
 'Создание укороченной ссылки:'
   На адрес: https://api-ssl.bitly.com/v4/bitlinks методом POST отправляем запрос.
   Тело запроса: long_url (обязательный)- длинная ссылка, которую вы хотите сократить.
-  Для авторизации с помощью OAuth 2 нужно добавить к запросу HTTP-заголовок Authorization: Bearer ВашТокен.
+  Для авторизации с помощью OAuth 2 нужно добавить к запросу HTTP-заголовок 
+  
+  **Authorization: Bearer ВашТокен**
   
   Пример: функция creating_a_shortened_link в main.py
     На вход мы подаём токен и ссылку.
@@ -67,4 +71,4 @@ Python3 должен быть уже установлен. Затем испол
 'Для запуска:'
   В командной строке:python main.py 'link'
 
-[Код написан в образовательных целях на онлайн-курсе для веб-разработчиков dvmn.org.](dvmn.org)
+Код написан в образовательных целях на онлайн-курсе для веб-разработчиков https://dvmn.org.
