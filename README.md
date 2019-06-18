@@ -1,4 +1,4 @@
-h1**project objective:**
+**project objective:**
 Shortening a long link to a short one and getting the number of clicks on a short link.
 For the reduction we use website bit.ly
 
@@ -38,40 +38,3 @@ pip install -r requirements.txt
 'To run:' In command line: ''' python main.py 'link' '''
 
 The code is written for educational purposes on online-course for web-developers https://dvmn.org.
-
-***********************************************
-
-**Цель проекта:**
-Сокращение длинной ссылки до короткой и получение количества переходов по короткой ссылке.
-
-Для сокращение используем сайт bit.ly
-
-**Установка и настройка**
-Для работы с bit.y нужен токен.
-Токен выглядит как строка наподобие следующей: 17c09e20ad155405123ac1977542fecf00231da7
-'Как получить токен.'
-  1)Регистрируйтесь на https://bit.ly через e-mail.
-  2)Ссылка для генерации токена :https://dev.bitly.com/get_started.html
-'Создание укороченной ссылки:'
-  На адрес: https://api-ssl.bitly.com/v4/bitlinks методом POST отправляем запрос.
-  Тело запроса: long_url (обязательный)- длинная ссылка, которую вы хотите сократить.
-  Для авторизации с помощью OAuth 2 нужно добавить к запросу HTTP-заголовок 
-  
-  **Authorization: Bearer ВашТокен**
-  
-  Пример: функция creating_a_shortened_link в main.py
-    На вход мы подаём токен и ссылку.
-    На выходе получаем короткую ссылку.
-  
-  'Пример ответа:'
-    
-  
-
-Python3 должен быть уже установлен. Затем используйте pip (или pip3, есть конфликт с Python2) для установки зависимостей:
-
-  pip install -r requirements.txt
-  
-'Для запуска:'
-  В командной строке:python main.py 'link'
-
-Код написан в образовательных целях на онлайн-курсе для веб-разработчиков https://dvmn.org.
