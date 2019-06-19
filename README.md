@@ -35,6 +35,6 @@ Then use pip (or pip3, if there is a conflict with Python2) to install dependenc
 
 pip install -r requirements.txt
 
-'To run:' In command line: ''' python main.py 'link' '''
+'To run:' In command line: python main.py 'link'
 
 The code is written for educational purposes on online-course for web-developers https://dvmn.org.
