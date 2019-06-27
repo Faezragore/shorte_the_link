@@ -1,4 +1,4 @@
-##project objective:
+##project objective:##
 
 Shortening a long link to a short one and getting the number of clicks on a short link.
 For the reduction we use website bit.ly
