@@ -1,19 +1,21 @@
 project objective:
 =====================
 Shortening a long link to a short one and getting the number of clicks on a short link.
+
 For the reduction we use website bit.ly
-***
+
 Installation and setup:
 -----------------------------------
-To work with bit.y needs the token.
+To work with bit.ly needs the token.
 
 The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
 
 How to get token.
+-----------------------------------
 
  1)Register for https://bit.ly via e-mail.
  
- 2)Link to generate token :https://dev.bitly.com/get_started.html
+ 2)Link to generate token: https://dev.bitly.com/get_started.html
  
 Creating a shortened link:
  Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
@@ -35,7 +37,9 @@ Creating a shortened link:
 Python3 should be already installed. 
 Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 *To run:* In command line: python main.py 'link'
 
