@@ -4,13 +4,13 @@ Shortening a long link to a short one and getting the number of clicks on a shor
 
 For the reduction we use website bit.ly
 
-###Installation and setup:
+### Installation and setup:
 
 To work with bit.ly needs the token.
 
 The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
 
-###How to get token.
+### How to get token.
 
  1)Register for https://bit.ly via e-mail.
  
