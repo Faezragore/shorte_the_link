@@ -1,14 +1,14 @@
 project objective:
 =====================
-Shortening a long link to a short one and getting the number of clicks on a short link.
+    Shortening a long link to a short one and getting the number of clicks on a short link.
 
-For the reduction we use website bit.ly
+    For the reduction we use website bit.ly
 
 ### Installation and setup:
 
-To work with bit.ly needs the token.
+    To work with bit.ly needs the token.
 
-The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
+    The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
 
 ### How to get token.
 
