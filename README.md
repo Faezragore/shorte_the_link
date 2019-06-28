@@ -16,7 +16,7 @@ project objective:
  
     2)Link to generate token: https://dev.bitly.com/get_started.html
  
-    Creating a shortened link:
+    **Creating a shortened link:**
      Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
      Request body: long_url (required)- the long link you want to shorten.
  
