@@ -12,24 +12,24 @@ project objective:
 
 ### How to get token.
 
- 1)Register for https://bit.ly via e-mail.
+    1)Register for https://bit.ly via e-mail.
  
- 2)Link to generate token: https://dev.bitly.com/get_started.html
+    2)Link to generate token: https://dev.bitly.com/get_started.html
  
-Creating a shortened link:
- Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
- Request body: long_url (required)- the long link you want to shorten.
+    Creating a shortened link:
+     Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
+     Request body: long_url (required)- the long link you want to shorten.
  
- For authorization using OAuth 2, you need to add to the HTTP request header
+     For authorization using OAuth 2, you need to add to the HTTP request header
  
- **Authorization: Bearer Wastaken**.
+     **Authorization: Bearer Wastaken**.
  
  Example: 
- creating_a_shortened_link function in main.py
+     creating_a_shortened_link function in main.py
  
- At the entrance we submit a token and a link.
+     At the entrance we submit a token and a link.
  
- The output is a short link.
+     The output is a short link.
  
  Response example:
 
