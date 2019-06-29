@@ -34,7 +34,7 @@ project objective:
  
      The output is a short link.
  
-[Example of work:]
+Example of work:
 
 ![screenshot of sample](https://wampi.ru/image/6W9Ttk4)
 
