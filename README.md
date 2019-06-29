@@ -1,10 +1,10 @@
-project objective:  &middot;
-=====================
-    Shortening a long link to a short one and getting the number of clicks on a short link.
+# project objective: 
 
-    For the reduction we use website bit.ly.
-    
-    If the link is already shortened with the help of the service,we will get statistics of clicks on the link.
+* link shortening service Bitly
+
+* enter a long link, the output is an abbreviated link
+
+*  If the link is already shortened with the help of the service,we will get statistics of clicks on the link.
 
 ### Installation and setup:
 
