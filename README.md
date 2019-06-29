@@ -36,7 +36,7 @@ project objective:
  
 [Example of work:]
 
-![](https://imgur.com/xyRUvIy)
+![screenshot of sample](https://imgur.com/xyRUvIy)
 
 
 Python3 should be already installed. 
