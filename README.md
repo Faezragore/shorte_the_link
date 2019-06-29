@@ -36,7 +36,7 @@ project objective:
  
 Example of work:
 
-![screenshot of sample](https://wampi.ru/image/6W9Ttk4)
+![screenshot of sample](https://i7.wampi.ru/2019/06/30/shorte_the_link.gif)
 
 
 Python3 should be already installed. 
