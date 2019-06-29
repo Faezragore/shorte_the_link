@@ -34,7 +34,10 @@ project objective:
  
      The output is a short link.
  
- Response example:
+[Example of work:]
+
+![] (https://imgur.com/syRpZI7)
+
 
 Python3 should be already installed. 
 Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
