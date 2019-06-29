@@ -16,22 +16,17 @@ pip install -r requirements.txt
 ```
     To interact with the Bitly service, you need a token
 
-    The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
-
 ### How to get token.
 
-    * Register for https://bit.ly via e-mail.
+   * Register for https://bit.ly via e-mail.
  
-    * Link to generate token: https://dev.bitly.com/get_started.html
- 
-   **Creating a shortened link: **
+   * Link to generate token: https://dev.bitly.com/get_started.html
    
-     Address: https://api-ssl.bitly.com/v4/bitlinks method POST send request.
-     Request body: long_url (required)- the long link you want to shorten.
+   * The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
  
-     For authorization using OAuth 2, you need to add to the HTTP request header
+   * In the folder with the downloaded repository, create a file .env (starting point is important).
  
-   **Authorization: Bearer Wastaken.**
+   * Into a file .env register your token ```TOKEN=your token ```
  
  Example: 
      creating_a_shortened_link function in main.py
