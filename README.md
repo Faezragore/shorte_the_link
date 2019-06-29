@@ -14,7 +14,7 @@ Then use pip (or pip3, if there is a conflict with Python2) to install dependenc
 ```
 pip install -r requirements.txt
 ```
-    To interact with the Bitly service, you need a token
+To interact with the Bitly service, you need a token
 
 ### How to get token.
 
@@ -28,18 +28,15 @@ pip install -r requirements.txt
  
    * Into a file .env register your token ```TOKEN=your token ```
  
- Example: 
-     creating_a_shortened_link function in main.py
+### the start of the script
  
-     At the entrance we submit a token and a link.
- 
-     The output is a short link.
+   * work is done on the command line.
+   
+   * To run:  In command line:   ``` python main.py 'your link' ```
  
 Example of work:
 
-![screenshot of sample](https://i7.wampi.ru/2019/06/30/shorte_the_link.gif)
+![screenshot of sample](https://i8.wampi.ru/2019/06/30/shorte_the_link.gif)
 
-
-* To run:  In command line:   ``` python main.py 'link' ```
 
 The code is written for educational purposes on online-course for web-developers https://dvmn.org.
