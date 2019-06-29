@@ -8,15 +8,21 @@ link shortening service Bitly
 
 ### Installation and setup:
 
-    To work with bit.ly needs the token.
+Python3 should be already installed. 
+Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
+
+```
+pip install -r requirements.txt
+```
+    To interact with the Bitly service, you need a token
 
     The token looks like the following string: 17c09e20ad155405123ac1977542fecf00231da7
 
 ### How to get token.
 
-    1)Register for https://bit.ly via e-mail.
+    * Register for https://bit.ly via e-mail.
  
-    2)Link to generate token: https://dev.bitly.com/get_started.html
+    * Link to generate token: https://dev.bitly.com/get_started.html
  
    **Creating a shortened link: **
    
@@ -38,13 +44,6 @@ Example of work:
 
 ![screenshot of sample](https://i7.wampi.ru/2019/06/30/shorte_the_link.gif)
 
-
-Python3 should be already installed. 
-Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
-
-```
-pip install -r requirements.txt
-```
 
 * To run:  In command line:   ``` python main.py 'link' ```
 
