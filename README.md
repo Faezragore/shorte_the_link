@@ -39,4 +39,4 @@ Example of work:
 ![screenshot of sample](https://i8.wampi.ru/2019/06/30/shorte_the_link.gif)
 
 
-The code is written for educational purposes on online-course for web-developers https://dvmn.org.
+The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org)
