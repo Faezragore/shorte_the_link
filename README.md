@@ -1,10 +1,10 @@
 # project objective: 
 
-* link shortening service Bitly
+link shortening service Bitly
 
-* enter a long link, the output is an abbreviated link
+  * enter a long link, the output is an abbreviated link
 
-*  If the link is already shortened with the help of the service,we will get statistics of clicks on the link.
+  *  If the link is already shortened with the help of the service,we will get statistics of clicks on the link.
 
 ### Installation and setup:
 
