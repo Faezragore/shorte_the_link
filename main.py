@@ -44,10 +44,10 @@ def main():
     check = checking_the_link(link_address)
     if check:
         amount_of_link_clicks = output_the_number_of_clicks_on_the_link(token, link_address)
-        print(amount_of_link_clicks)
+        print("\nlink click statistics: ",amount_of_link_clicks['total_clicks'])
     else:
         short_link = creating_a_shortened_link(token, link_address)
-        print(short_link)
+        print("\n", short_link)
 
 
 if __name__ == '__main__':
