@@ -3,7 +3,6 @@ import os
 import argparse
 import requests
 from dotenv import load_dotenv
-load_dotenv()
 
 
 def output_the_number_of_clicks_on_the_link(token, link_address):
@@ -34,6 +33,7 @@ def checking_the_link(link_address):
 
 
 def main():
+    load_dotenv()
     parser = argparse.ArgumentParser(description='Shorten a long link and give information about the meek link')
     parser.add_argument('link', help='your link')
     args = parser.parse_args()
